@@ -1,6 +1,6 @@
 # Author: Luke Yang
 
-FROM debian:stable
+FROM debian:jupyter/scipy-notebook:85f615d5cafa
 
 RUN apt-get update
 
